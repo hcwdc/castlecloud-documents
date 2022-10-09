@@ -1,0 +1,45 @@
+.content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 90;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 64px;
+  background: url('./image/bg.png') no-repeat center top / cover;
+}
+.content h1 {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1;
+  text-align: center;
+}
+.content h4 {
+  margin-bottom: 70px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+}
+.content button {
+  display: block;
+  margin: auto;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  background: #0084ff;
+  border: 0;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+.logo {
+  display: block;
+  width: 100px;
+  margin: auto;
+  margin-top: 30vh;
+}
